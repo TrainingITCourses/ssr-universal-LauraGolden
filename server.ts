@@ -1,8 +1,8 @@
 import { enableProdMode } from '@angular/core';
 import { ngExpressEngine } from '@nguniversal/express-engine';
 import { provideModuleMap } from '@nguniversal/module-map-ngfactory-loader';
-import * as express from 'express'; import { join } from 'path'; import 'reflect‐metadata';
-import 'zone.js/dist/zone‐node';
+import * as express from 'express'; import { join } from 'path'; import 'reflect-metadata';
+import 'zone.js/dist/zone-node';
 
 enableProdMode();
 const app = express();
